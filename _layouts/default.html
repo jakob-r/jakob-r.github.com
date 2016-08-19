@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+	{% include meta.html %}
+</head>
+<body>
+
+<header id="headside" class="navbar-fixed">
+  <a id="home" href="/" aria-label="home" class="roundicon"><i class="fa fa-home" aria-hidden="true"></i></a>
+  <img src="{{ site.avatar-url }}" alt="It's me!" class="roundicon" id="avatar">
+	<h1>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</h1>
+	{% if page.layout == "post" %}
+	<ul class="list-unstyled">
+		<li><i class="fa fa-calendar" aria-hidden="true"></i>{{ page.date | date: "%-d %b %Y"}}</li>
+		{% unless page.tags == empty %}
+		<li><i class="fa fa-tags" aria-hidden="true"></i>
+			{% for tag in page.tags %}
+			<a href="/tags/#{{ tag }}-ref">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+			{% endfor %}
+		</li>
+		{% endunless %}
+	</ul>
+	{% endif %}
+</header>
+
+{{ content }}
+
+
+<footer id="sidefooter">
+	{% if page.layout == "post" %}
+		<div class="postnavi">
+		{% if page.previous.url %}
+			<a href="{{page.previous.url}}" class="roundicon left"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>{{page.previous.title}}</span></a>
+  	{% endif %}
+  	{% if page.next.url %}
+  		<a href="{{page.next.url}}" class="roundicon right"><span>{{page.next.title}}</span><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+  	{% endif %}
+  	</div>
+	{% endif %}
+	{% include icons.html %}
+</footer>
+
+</body>
+</html>

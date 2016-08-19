@@ -1,0 +1,248 @@
+/* Basics */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif; 
+  line-height: 2em;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+  background-color: #ebe8d5;
+}
+
+a {
+  color: #4b6a88;
+  transition: color 300ms linear;
+  -webkit-transition: all 300ms linear;
+}
+
+a:visited {
+  color: #708090;
+}
+
+a:hover {
+  color: #aa2e00;
+}
+
+#avatar {
+  margin-right: 19px;
+  display: inline;
+}
+
+#headside {
+  background-image: url(../images/navbg.jpg);
+  color: #DDD;
+}
+
+#headside, #sidefooter{
+  padding: 20px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+#headside h1{
+  margin-top: 30px;
+  margin-bottom:20px;
+  line-height: 1.33em;
+  color: #EEE;
+  display: inline;
+}
+
+#headside ul.list-unstyled li i.fa {
+  width: 24px;
+  text-align:left;
+}
+#headside ul.list-unstyled li {
+  line-height: 2em;
+}
+
+#content, div.posts {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div.posts hr {
+  border:thin solid #555;
+}
+
+div.posts article {
+  margin-bottom: 2em;
+}
+
+a.roundicon {
+  display: block;
+  font-size: 2em;
+  padding-top: 8px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: background 300ms linear;
+  -webkit-transition: background 300ms linear;
+}
+
+a.roundicon:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  transition: background 300ms linear;
+  -webkit-transition: background 300ms linear;
+}
+
+.roundicon {
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+/* footer */
+#sidefooter {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px;
+  text-align:center;
+}
+
+#sidefooter ul.list-unstyled {
+  display: block;
+  margin: 40px auto 40px auto;
+}
+#sidefooter ul.list-unstyled li {
+  display: inline;
+  font-size: 2em;
+  margin: 0.2em;
+}
+
+#sidefooter ul.list-unstyled a, #headside ul.list-unstyled a{
+  color: #ddf;
+}
+
+#sidefooter #socials a {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 300ms linear;
+  -webkit-transition: color 300ms linear;
+}
+#sidefooter #socials a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* footer > pagination next/previous article */
+#sidefooter div.postnavi a.roundicon {
+  display: inline-block;
+  width: 48px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: width 300ms ease;
+  transition: width 300ms ease;
+}
+#sidefooter div.postnavi a.roundicon:hover {
+  width: 228px;
+}
+div.postnavi a.roundicon span {
+  display: none;
+  overflow: hidden;
+  width: 170px;
+  font-size: initial;
+}
+div.postnavi a.roundicon:hover span {
+  display: inline-block;
+}
+
+/* tag page */
+article.short h3 {
+  display: initial;
+}
+
+div.short {
+  color: #708090;
+}
+
+div.posts article.short {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0px;
+  white-space: nowrap;
+  /* fancy text grades to trasnparent */
+  background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 75%,rgba(0,0,0,0) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.short a {
+  text-decoration: none;
+}
+
+div.posts a article.short:hover {
+  background: -webkit-linear-gradient(left, rgba(170,46,0,1) 0%,rgba(170,46,0,1) 85%,rgba(170,46,0,0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2:target {
+  text-decoration: underline;
+  color: #aa2e00;
+}
+
+
+/* big screens */
+@media screen and (min-width: 961px), screen and (min-height: 501px){
+  #headside, #sidefooter{
+    position: fixed;
+  	width: 300px;  	
+  }
+  #headside {
+    height: 100%;
+  }
+  #content, div.posts {
+    padding: 30px 30px 30px 330px;
+  }
+  #headside #home {
+    margin-bottom: 28px; 
+  }
+}
+/* Small screens */
+@media screen and (max-width: 960px), screen and (max-height: 500px){
+  #headside, #sidefooter {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+  }
+  #headside #home {
+    display: inline-block;
+    position: relative;
+    bottom: 0.37em;
+    margin-right: 28px; 
+    margin-bottom: initial;
+  }
+  #content, div.posts {
+    padding: 30px;
+  }
+  #headside ul.list-unstyled {
+    text-align: right;
+  }
+  #headside ul.list-unstyled li {
+    display: inline;
+    margin-right: 10px;
+  }
+  #headbottom {
+    display: none
+  }
+  #sidefooter {
+    background-image: url(../images/navbg.jpg);
+
+  }
+}
