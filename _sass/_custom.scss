@@ -1,7 +1,9 @@
 /* Basics */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif; 
-  line-height: 2em;
+  line-height: 1.3em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 h1 {
   font-size: 2.5em;
@@ -65,11 +67,6 @@ a:hover {
 }
 #headside ul.list-unstyled li {
   line-height: 2em;
-}
-
-#content, div.posts {
-  margin-left: 30px;
-  margin-right: 30px;
 }
 
 div.posts hr {
@@ -167,6 +164,9 @@ article.short h3 {
 
 div.short {
   color: #708090;
+  a {
+    text-decoration: none;  
+  }
 }
 
 div.posts article.short {
@@ -179,16 +179,11 @@ div.posts article.short {
   background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 75%,rgba(0,0,0,0) 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-div.short a {
-  text-decoration: none;
-}
-
-div.posts a article.short:hover {
-  background: -webkit-linear-gradient(left, rgba(170,46,0,1) 0%,rgba(170,46,0,1) 85%,rgba(170,46,0,0) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  &:hover {
+    background: -webkit-linear-gradient(left, rgba(170,46,0,1) 0%,rgba(170,46,0,1) 85%,rgba(170,46,0,0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 h2:target {
@@ -204,17 +199,16 @@ article.post div.entry p img, #content p img {
   max-width: 95%;
   border: solid thin #aaa;
   background-color: #fff;
-}
-
-article.post div.entry p img:active, #content p img:active {
-  position: fixed;
-  margin-right: auto;
-  margin-left: auto;
-  top: 10px;
-  width: 95%;
-  max-height: 95%;
-  left: 10px;
-  z-index: 9999;
+  &:active {
+    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    top: 10px;
+    width: 95%;
+    max-height: 95%;
+    left: 10px;
+    z-index: 9999;   
+  }
 }
 
 
@@ -228,7 +222,7 @@ article.post div.entry p img:active, #content p img:active {
     height: 100%;
   }
   #content, div.posts {
-    padding: 30px 30px 30px 330px;
+    padding: 30px 60px 30px 360px;
   }
   #headside #home {
     margin-bottom: 28px; 
