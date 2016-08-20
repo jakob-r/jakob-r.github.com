@@ -1,0 +1,21 @@
+---
+layout: post
+title: Keep data.frame a data.frame
+tags : [r-tip]
+---
+  
+When writing *R* functions always remind yourself to think about if it can happen that you accidentally just select one column of a  `data.frame`. 
+This will result in vector which might not be what you expect in the following code.
+One good practice is to always use `drop=FALSE` when you intend to get a `data.frame` and use the `[[]]` notation if you expect a vector.
+```{r}
+df = data.frame(a = 1:3, b = letters[1:3])
+cols = c("a")
+```
+Lets assume cols is a vector which only sometimes has the length one, then we would do the following:
+```{r}
+df[, cols, drop=FALSE]
+```
+And to purposefully select a vector:
+df[[cols[1]]]
+```
+

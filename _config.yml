@@ -12,9 +12,15 @@ footer-links:
 url: http://jakob-r.github.io
 excerpt_separator: <!--more-->
 disqus: jakobr
+permalink: /:title/
+
+# technical stuff
+
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+exclude:
+  - knit2md
+  - _source

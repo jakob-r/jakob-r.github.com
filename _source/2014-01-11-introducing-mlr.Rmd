@@ -1,0 +1,28 @@
+---
+layout: post
+title:  mlr quickstart
+tags : [r,mlr,ml]
+draft: true
+---
+
+As i spent quite a few time 
+There is a *r* package which makes *classification* and *regression* tasks really easy.
+How easy? Realy easy, or how fast can you do a 10-fold cross validation in *R*?
+
+```{r results='hide', message=FALSE}
+library(mlr)
+tsk = makeClassifTask(id="cl.test", data=iris, target="Species")
+res = resample(learner=makeLearner("classif.lda"), task=tsk, resampling=makeResampleDesc(method="CV"))
+```
+```{r}
+c(res$aggr, sd=sd(res$measures.test$mmce))
+```
+
+<!--more-->
+
+I have to admit that it is developed at my department and I might be biased but it is relly neat.
+The instructions on how to install **mlr** can be found on [the github page](https://github.com/berndbischl/mlr).
+There are also a lot of [tutorials](https://github.com/berndbischl/mlr/blob/master/doc/knitted/tutorial/index.md) giving a good introduction and explaining most of the vast capabilities of **mlr**.
+
+
+
