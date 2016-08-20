@@ -157,6 +157,10 @@ div.postnavi a.roundicon:hover span {
   display: inline-block;
 }
 
+#content, div.posts {
+  padding: 30px;
+}
+
 /* tag page */
 article.short h3 {
   display: initial;
@@ -221,8 +225,8 @@ article.post div.entry p img, #content p img {
   #headside {
     height: 100%;
   }
-  #content, div.posts {
-    padding: 30px 60px 30px 360px;
+  #content, div.posts, div.comments {
+    margin-left: 300px;
   }
   #headside #home {
     margin-bottom: 28px; 
@@ -243,8 +247,8 @@ article.post div.entry p img, #content p img {
     margin-right: 28px; 
     margin-bottom: initial;
   }
-  #content, div.posts {
-    padding: 30px;
+  #content, div.posts, div.comments {
+    margin-left: 0px;
   }
   #headside ul.list-unstyled {
     text-align: right;
@@ -260,4 +264,10 @@ article.post div.entry p img, #content p img {
     background-image: url(../images/navbg.jpg);
 
   }
+}
+
+/* disqus */
+div.comments {
+  padding: 30px;
+  background-color: #eee;
 }
