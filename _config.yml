@@ -24,3 +24,5 @@ highlighter: rouge
 exclude:
   - knit2md
   - _source
+sass:
+  style: :compressed

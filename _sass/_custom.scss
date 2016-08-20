@@ -196,6 +196,27 @@ h2:target {
   color: #aa2e00;
 }
 
+/* content posts */
+article.post div.entry p img, #content p img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 95%;
+  border: solid thin #aaa;
+  background-color: #fff;
+}
+
+article.post div.entry p img:active, #content p img:active {
+  position: fixed;
+  margin-right: auto;
+  margin-left: auto;
+  top: 10px;
+  width: 95%;
+  max-height: 95%;
+  left: 10px;
+  z-index: 9999;
+}
+
 
 /* big screens */
 @media screen and (min-width: 961px), screen and (min-height: 501px){

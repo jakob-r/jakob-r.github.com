@@ -16,6 +16,7 @@ Lets assume cols is a vector which only sometimes has the length one, then we wo
 df[, cols, drop=FALSE]
 ```
 And to purposefully select a vector:
+```{r}
 df[[cols[1]]]
 ```
 
