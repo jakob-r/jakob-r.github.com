@@ -24,5 +24,7 @@ highlighter: rouge
 exclude:
   - knit2md
   - _source
+  - '*.Rproj'
+  - '*.Rmd'
 sass:
   style: :compressed

@@ -1,0 +1,35 @@
+---
+layout: post
+title: Is true really true?
+tags : [r-tip]
+---
+An often forgotten R-function while developing: `isTRUE()` and it's brother `isFALSE()`.
+Have you found yourself in the situation that you had to write
+```{r, eval=FALSE}
+if (!is.null(foo$bar) && foo$bar == "awesome") {}
+```
+Much shorter is the following:
+```{r, eval=FALSE}
+if (isTRUE(foo$bar == "awesome")) {}
+```
+<!--more-->
+This additional code is often necessary if `foo` is a list and we are not certain that `bar` is an element of it.
+So first we have to check, whether `bar` is not `NULL`.
+Otherwise you get the following error
+```{r, error=TRUE}
+foo = list()
+if (foo$bar == "awesome") cat("it works!")
+```
+If you didn't now before `&&` and `||` stop the evaluation as soon as possible.
+So `a && b && c` does not check `b` and `c` if `a` is already `FALSE.
+Vice versa with `a || b || c`.
+If `a` is `FALSE` and `b` is `TRUE` there is no more necessity to look at `c` because the whole expression is already `TRUE`.
+
+But in R we also have the single `&` and `|`!
+These are meant to compare logical vectors as in
+```{r}
+a = runif(10) > 0.5
+b = runif(10) > 0.5
+a|b
+```
+
