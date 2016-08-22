@@ -1,0 +1,38 @@
+---
+layout: post
+title: R enviroments and the search path
+tags : [r-tip]
+draft: true
+---
+
+```{r}
+a = 1
+foo = function(x) {
+  a + x
+}
+foo(0)
+
+bar = function(x) {
+  a = 2
+  foo(x)
+}
+bar(0)
+
+foo2 = function(x) {
+  a = get("a", envir = parent.frame())
+  a + x
+}
+foo2(0)
+
+bar2 = function(x) {
+  a = 2
+  foo2(x)
+}
+bar2(0)
+
+deep = function(x) {
+  foo2(x)
+}
+deep(0)
+
+```
