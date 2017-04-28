@@ -1,9 +1,12 @@
+/* Constants */
+$break-height: 500px;
+$break-width: 960px;
+
 /* Basics */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif; 
   line-height: 1.3em;
   margin-bottom: 1em;
-  margin-top: 1em;
 }
 h1 {
   font-size: 2.5em;
@@ -215,9 +218,42 @@ article.post div.entry p img, #content p img {
   }
 }
 
+/* projects */
+div.projects {
+  padding: 0px;
+  > h1 {
+    margin-left: 30px;
+  }
+  vertical-align: middle;
+  div.projectbox {
+    margin-left: 20px;
+  }
+  a.project {
+    @media screen and (min-width: $break-width){
+        display: inline-block;;
+        width: 200px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #b7ab96;
+    h1 {
+      font-size: 1.2em;
+      font-weight: bold;
+      display: inline;
+    }
+    p {
+      display: inline;
+      color: #222;
+    }
+  }
+}
 
 /* big screens */
-@media screen and (min-width: 961px), screen and (min-height: 501px){
+@media screen and (min-width: $break-width), screen and (min-height: $break-height){
   #headside, #sidefooter{
     position: fixed;
   	width: 300px;  	
@@ -225,7 +261,7 @@ article.post div.entry p img, #content p img {
   #headside {
     height: 100%;
   }
-  #content, div.posts, div.comments {
+  #content, div.posts, div.comments, div.projects {
     margin-left: 300px;
   }
   #headside #home {
@@ -233,7 +269,7 @@ article.post div.entry p img, #content p img {
   }
 }
 /* Small screens */
-@media screen and (max-width: 960px), screen and (max-height: 500px){
+@media screen and (max-width: $break-width), screen and (max-height: $break-height){
   #headside, #sidefooter {
     position: relative;
     width: 100%;
@@ -247,7 +283,7 @@ article.post div.entry p img, #content p img {
     margin-right: 28px; 
     margin-bottom: initial;
   }
-  #content, div.posts, div.comments {
+  #content, div.posts, div.comments, div.projects {
     margin-left: 0px;
   }
   #headside ul.list-unstyled {
