@@ -1,0 +1,14 @@
+---
+layout: post
+title: Last Value
+tags : [r-tip]
+---
+
+Have you calculated something in R that took some time but you forgot to save the result?
+Fear no more.
+`.Last.value` always stores the last result.
+
+```{r}
+runif(5)
+mean(.Last.value)
+``` 
