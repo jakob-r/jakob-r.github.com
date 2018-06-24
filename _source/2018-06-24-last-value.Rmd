@@ -3,6 +3,15 @@ layout: post
 title: Last Value
 tags : [r-tip]
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(render = function(x, ...){
+    unlockBinding(".Last.value", .BaseNamespaceEnv)
+    assign(".Last.value", x, .BaseNamespaceEnv)
+    lockBinding(".Last.value", .BaseNamespaceEnv)
+    knitr::knit_print(x, ...)
+})
+# https://stackoverflow.com/questions/31475226/using-last-value-in-rmarkdown-knitr
+```
 
 Have you calculated something in R that took some time but you forgot to save the result?
 Fear no more.

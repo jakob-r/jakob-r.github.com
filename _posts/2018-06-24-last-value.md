@@ -4,6 +4,7 @@ title: Last Value
 tags : [r-tip]
 ---
 
+
 Have you calculated something in R that took some time but you forgot to save the result?
 Fear no more.
 `.Last.value` always stores the last result.
@@ -28,12 +29,5 @@ mean(.Last.value)
 
 
 {% highlight text %}
-## Warning in mean.default(.Last.value): argument is not numeric or logical:
-## returning NA
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## [1] NA
+## [1] 0.4752734
 {% endhighlight %}
