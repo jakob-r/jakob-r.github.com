@@ -4,4 +4,4 @@ title: mlr
 project: true
 link: https://github.com/mlr-org/mlr/
 ---
-co-author of mlr - the huge R-package for machine learning.
+Co-author of mlr - the R-package for machine learning.
