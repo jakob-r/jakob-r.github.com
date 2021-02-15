@@ -1,0 +1,30 @@
+{{ define "main" }}
+   {{ partial "about.html" .}}
+   {{ if .Site.Params.showSkills }}
+       {{ partial "portfolio/skills.html" . }}
+   {{ end }}
+   {{ if .Site.Params.showCoding }}
+      {{ with .Site.GetPage "section" "coding" }}
+         {{ .Scratch.Set "sectionId" "coding" }}
+         {{ partial "sectionSummary" . }}
+      {{ end }}
+   {{ end }}
+   {{ if .Site.Params.showPublications }}
+      {{ with .Site.GetPage "section" "publications" }}
+         {{ .Scratch.Set "sectionId" (default "Publications" .Site.Params.publicationsAlternateName) }}
+         {{ partial "sectionSummary" . }}
+      {{ end }}
+   {{ end }}
+   {{ if .Site.Params.showExperience }}
+       {{ partial "portfolio/experience.html" . }}
+   {{ end }}
+   {{ if .Site.Params.showEducation }}
+       {{ partial "portfolio/education.html" . }}
+   {{ end }}
+   {{ if .Site.Params.showBlog }}
+      {{ with .Site.GetPage "section" "blog" }}
+         {{ .Scratch.Set "sectionId" "blog" }}
+         {{ partial "sectionSummary" . }}
+      {{ end }}
+   {{ end }}
+{{ end }}

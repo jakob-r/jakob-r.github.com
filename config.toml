@@ -1,0 +1,59 @@
+title = "Jakob Richter"
+baseURL = "https://jakob-r.de/"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Germany"
+email = "code@jakob-r.de"
+favicon = "/favicon.ico"
+firstName = "Jakob"
+lastName = "Richter"
+# phone = "1-555-555-1234"
+profileImage = "https://avatars3.githubusercontent.com/u/1888623"
+showEducation = true
+showExperience = true
+showOpenSource = false
+showCoding = true
+showPublications = true
+showQr = false
+showSkills = true
+
+# [params.google]
+
+# [params.google.analytics]
+# trackerID = "XX-123446-01"
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/jakob-richter-66554aba/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/jakob-r/"
+name = "GitHub"
+
+[[params.handles]]
+link = "https://stackoverflow.com/users/993718/jakob-r?tab=profile"
+name = "Stack-Overflow"
+
+[[params.handles]]
+link = "https://keybase.io/jakobr"
+name = "Keybase"
+
+#[[params.handles]]
+#link = "https://www.flickr.com/photos/scoobay"
+#name = "flickr"
+
+[[params.handles]]
+link = "https://www.instagram.com/jakob.richter/"
+name = "instagram"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"

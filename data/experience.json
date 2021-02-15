@@ -1,0 +1,33 @@
+[
+    {
+        "role":"Postdoctoral Researcher",
+        "company":"[TU Dortmund University, Faculty of Statistics](https://www.statistik.tu-dortmund.de/richter.html)",
+        "summary":"Research on application of Bayesian optimization on dynamically changing problems.",
+        "range":"September 2020 - Present"
+    },
+    {
+        "role":"Postdoctoral Researcher",
+        "company":"[Ludwig Maximilian University of Munich, Chair of Statistical Learning and Data Science](https://www.slds.stat.uni-muenchen.de/people/richter/)",
+        "summary":"Member of the Automated Machine Learning research group, research on multi-objective optimization, lecture on automated machine learning, and working on open source projects for machine learning in R: [mlr3](https://mlr3.mlr-org.com/), [mlr3tuning](https://mlr3.mlr-org.com/), [mlr3hyperband](https://mlr3.mlr-org.com/).",
+        "range":"April 2020 - Present"
+    },
+    {
+        "role":"Researcher",
+        "company":"TU Dortmund University, Faculty of Statistics",
+        "summary":"Finished my PhD, Research on parallelization for Bayesian optimization, hyperparameter optimization for expensive machine learning problems, and worked on various open source projects for machine learning in R: [mlr](https://mlr.mlr-org.com/), [mlrMBO](https://mlrmbo.mlr-org.com/), [mlrHyperopt](https://jakob-r.de/mlrHyperopt/).",
+        "range":"Mai 2015 - September 2020"
+    },
+    {
+        "role":"Student Assistant",
+        "company":"TU Dortmund University, Faculty of Statistics",
+        "summary":"Connected multiple machine learning methods to the R-package [mlr](https://mlr.mlr-org.com/).",
+        "range":"September 2013 - April 2015"
+    },
+    {
+        "role":"Student Assistant",
+        "company":"TU Dortmund University, Center for Research on Education and School Development (IFS)",
+        "summary":"Implemented a system to create automated reports based on current research surveys, that were used in the final publication [TIMSS 2011](http://www.ifs.tu-dortmund.de/cms/de/Forschung/Abgeschlossene-Projekte/TIMSS-2011-Grundschule.html).",
+        "range":"June 2012 - December 2012"
+    }
+
+]

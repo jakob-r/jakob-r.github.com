@@ -1,0 +1,28 @@
+[
+    {
+        "school":"[TU Dortmund University](https://www.statistik.tu-dortmund.de/faculty_en.html)",
+        "degree":"Doctoral Degree",
+        "major":"Statistics",
+        "range":"2015 - 2020"
+    },
+    {
+        "school":"[TU Dortmund University](https://www.statistik.tu-dortmund.de/faculty_en.html)",
+        "degree":"Master of Science",
+        "major":"Statistics",
+        "notes":"Minor: Computer Science",
+        "range":"2012 - 2015"
+    },
+    {
+        "school":"[TU Dortmund University](https://www.statistik.tu-dortmund.de/faculty_en.html)",
+        "degree":"Bachelor of Science",
+        "major":"Statistics",
+        "notes":"Minor: Computer Science",
+        "range":"2009 - 2012"
+    },
+    {
+        "school":"Heinrich Hertz Gymansium, Berlin",
+        "degree":"Abitur",
+        "major":"Mathematics, English",
+        "range":"2001 - 2008"
+    }
+]

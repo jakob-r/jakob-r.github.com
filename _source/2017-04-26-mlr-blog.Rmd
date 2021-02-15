@@ -1,7 +1,0 @@
----
-layout: project
-title: mlr-blog
-project: true
-link: https://mlr-org.com/
----
-Maintainer and co-author of the [mlr-blog](https://mlr-org.com/).

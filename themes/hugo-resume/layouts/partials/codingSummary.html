@@ -1,0 +1,13 @@
+<h3 class="mb-3"><a href="{{ .Params.link }}" target = "_blank">{{ .Title }}</a></h3>
+<div class="resume-item d-flex flex-column flex-md-row mb-3">
+
+  <div class="resume-content">
+    {{with  .Params.image }}
+      <img src="{{ . }}"/>
+    {{ end }}
+  </div>
+  <div class="resume-date">
+    <p>{{ .Content | safeHTML }}<p>
+  </div>
+</div>
+<div>{{ partial "techtags" . }}</div>

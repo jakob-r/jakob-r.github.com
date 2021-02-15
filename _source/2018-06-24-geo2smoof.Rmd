@@ -1,7 +1,0 @@
----
-layout: project
-title: geo2smoof
-project: true
-link: https://jakob-r.de/geo2smoof/
----
-R-package: Convert altitude data to mathematical functions.
