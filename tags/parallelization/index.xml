@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>parallelization on Jakob Richter</title>
+    <link>https://jakob-r.de/tags/parallelization/</link>
+    <description>Recent content in parallelization on Jakob Richter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://jakob-r.de/tags/parallelization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Faster model-based optimization through resource-aware scheduling strategies</title>
+      <link>https://jakob-r.de/publications/richter_2016_faster/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/richter_2016_faster/</guid>
+      <description>This paper shows one way to parallelize model-based optimization on the example of tuning a SVM. The challenge of heterogeneous runtimes that can cause unused CPU resources is tackled by using scheduling strategies on predicted runtimes. We were able use the resources more efficiently which led to better tuning results. We improved our scheduling strategy in the follow up paper Rambo: Resource-aware model-based optimization with scheduling for heterogeneous runtimes and a comparison with asynchronous model-based optimization.</description>
+    </item>
+    
+  </channel>
+</rss>

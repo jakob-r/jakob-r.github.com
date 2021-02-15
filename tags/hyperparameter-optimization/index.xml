@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hyperparameter optimization on Jakob Richter</title>
+    <link>https://jakob-r.de/tags/hyperparameter-optimization/</link>
+    <description>Recent content in hyperparameter optimization on Jakob Richter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://jakob-r.de/tags/hyperparameter-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mlrHyperopt</title>
+      <link>https://jakob-r.de/coding/mlr3hyperopt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/coding/mlr3hyperopt/</guid>
+      <description>With this small side-project I simplified hyperparameter tuning within mlr by defining a heurisitc that choses the appropriate search space and optimizer for a given machine learning algorithm and dataset. More details in my blog post on r-bloggers and my talk at the international useR! conference 2017.</description>
+    </item>
+    
+  </channel>
+</rss>

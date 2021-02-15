@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MBO on Jakob Richter</title>
+    <link>https://jakob-r.de/tags/mbo/</link>
+    <description>Recent content in MBO on Jakob Richter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jakob-r.de/tags/mbo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Model-based Optimization with Concept Drifts</title>
+      <link>https://jakob-r.de/publications/richter_2020_model/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/richter_2020_model/</guid>
+      <description>This paper shows an straigt-forward approach on how to apply Model-based optimization (Bayesian optimization) on proplems that change systematically over time. This approach could be used to optimize the hyperparameters of an online machine learning algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Model-based optimization of subgroup weights for survival analysis</title>
+      <link>https://jakob-r.de/publications/richter_2019_model/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/richter_2019_model/</guid>
+      <description>This paper successfully applied model-based optimization to identify optimal subgroup weights for survival prediction with high-dimensional genetic covariates. When predicting survival for a specific subgroup it can be beneficial to combine the training data with other subgroups to obtain a better model.</description>
+    </item>
+    
+    <item>
+      <title>mlrMBO: A modular framework for model-based optimization of expensive black-box functions</title>
+      <link>https://jakob-r.de/publications/bischl_2017_mlrmbo/</link>
+      <pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/bischl_2017_mlrmbo/</guid>
+      <description>This is the accompanying paper for the mlrMBO R package. It gives a brief introduction the model-based optimization algorithm and shows that mlrMBO is able to outperform other optimization packages on synthetic test functions as well as on real hyperparameter optimization problems.</description>
+    </item>
+    
+    <item>
+      <title>Faster model-based optimization through resource-aware scheduling strategies</title>
+      <link>https://jakob-r.de/publications/richter_2016_faster/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/richter_2016_faster/</guid>
+      <description>This paper shows one way to parallelize model-based optimization on the example of tuning a SVM. The challenge of heterogeneous runtimes that can cause unused CPU resources is tackled by using scheduling strategies on predicted runtimes. We were able use the resources more efficiently which led to better tuning results. We improved our scheduling strategy in the follow up paper Rambo: Resource-aware model-based optimization with scheduling for heterogeneous runtimes and a comparison with asynchronous model-based optimization.</description>
+    </item>
+    
+    <item>
+      <title>mlrMBO</title>
+      <link>https://jakob-r.de/coding/mlrmbo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/coding/mlrmbo/</guid>
+      <description>Maintainer and co-author of the model-based optimization toolkit for R: mlrMBO. This R package offers various Bayesian optimization methods and includes parallelization as well as multi-criteria optimization. Most of my research is implemented in this package and partly resides in development-branches. You can see my presentation of mlrMBO at the useR! conference 2016 in Stanford here.</description>
+    </item>
+    
+  </channel>
+</rss>

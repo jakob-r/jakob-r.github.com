@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jakob-r.de/publications/</loc>
+    <lastmod>2020-01-07T16:47:30+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/publications/richter_2020_model/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/publications/richter_2019_model/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/publications/bischl_2017_mlrmbo/</loc>
+    <lastmod>2017-09-03T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/publications/richter_2016_faster/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/publications/bischl_2016_mlr/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/mbo/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/bioinformatics/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/machine-learning/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/coding/</loc>
+    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/coding/mlr/</loc>
+    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/r/</loc>
+    <lastmod>2018-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/parallelization/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/apache/</loc>
+    <lastmod>2009-01-01T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/blog/</loc>
+    <lastmod>2009-01-01T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/blog/force-ssl/</loc>
+    <lastmod>2009-01-01T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/redirect/</loc>
+    <lastmod>2009-01-01T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/rewrite/</loc>
+    <lastmod>2009-01-01T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/ssl/</loc>
+    <lastmod>2009-01-01T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/web-development/</loc>
+    <lastmod>2009-01-01T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/hyperparameter-optimization/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/coding/mlr3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/coding/mlr3hyperopt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/coding/mlrmbo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/oop/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/optimization/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/tags/r6/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jakob-r.de/search/</loc>
+    <priority>0.1</priority>
+  </url>
+  
+</urlset>
