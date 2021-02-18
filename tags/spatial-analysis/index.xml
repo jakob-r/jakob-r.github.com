@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spatial analysis on Jakob Richter</title>
+    <link>https://jakob-r.de/tags/spatial-analysis/</link>
+    <description>Recent content in spatial analysis on Jakob Richter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Dec 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://jakob-r.de/tags/spatial-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysing geo data on a street level performedon an example of road accidents in London</title>
+      <link>https://jakob-r.de/publications/richter_2013_ba/</link>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/richter_2013_ba/</guid>
+      <description>In my bachelor thesis I developed an algorithm that was able to map observations that were given by latitude and longitude data to the according street segment. This yields a much more insightful visualization that a normal heat-map or individual points.</description>
+    </item>
+    
+  </channel>
+</rss>

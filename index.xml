@@ -13,7 +13,7 @@
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jakob-r.de/publications/richter_2020_model/</guid>
-      <description>This paper shows an straigt-forward approach on how to apply Model-based optimization (Bayesian optimization) on proplems that change systematically over time. This approach could be used to optimize the hyperparameters of an online machine learning algorithm.</description>
+      <description>This paper shows an straight-forward approach on how to apply Model-based optimization (Bayesian optimization) on problems that change systematically over time. This approach could be used to optimize the hyperparameters of an online machine learning algorithm.</description>
     </item>
     
     <item>
@@ -50,6 +50,24 @@
       
       <guid>https://jakob-r.de/publications/bischl_2016_mlr/</guid>
       <description>This paper is just our formal publication mlr. More details can be found in the detailed online tutorial here. Please note that we advice to use mlr3 instead which comes along with a in-depth documentation in online book form.</description>
+    </item>
+    
+    <item>
+      <title>Model-based Hyperparameter Optimization for Machine Learning Algorithms on Large Datasets</title>
+      <link>https://jakob-r.de/publications/richter_2015_ma/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/richter_2015_ma/</guid>
+      <description>In my master thesis I developed model-based approach to multi-fidelity optimization. This approach allows to find promising hyperparameter configurations faster by evaluating the ml algorithm on small samples of the data.</description>
+    </item>
+    
+    <item>
+      <title>Analysing geo data on a street level performedon an example of road accidents in London</title>
+      <link>https://jakob-r.de/publications/richter_2013_ba/</link>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/richter_2013_ba/</guid>
+      <description>In my bachelor thesis I developed an algorithm that was able to map observations that were given by latitude and longitude data to the according street segment. This yields a much more insightful visualization that a normal heat-map or individual points.</description>
     </item>
     
     <item>

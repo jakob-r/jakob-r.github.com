@@ -44,6 +44,15 @@
     </item>
     
     <item>
+      <title>Model-based Hyperparameter Optimization for Machine Learning Algorithms on Large Datasets</title>
+      <link>https://jakob-r.de/publications/richter_2015_ma/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/richter_2015_ma/</guid>
+      <description>In my master thesis I developed model-based approach to multi-fidelity optimization. This approach allows to find promising hyperparameter configurations faster by evaluating the ml algorithm on small samples of the data.</description>
+    </item>
+    
+    <item>
       <title>mlr</title>
       <link>https://jakob-r.de/coding/mlr/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>

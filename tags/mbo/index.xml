@@ -13,7 +13,7 @@
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jakob-r.de/publications/richter_2020_model/</guid>
-      <description>This paper shows an straigt-forward approach on how to apply Model-based optimization (Bayesian optimization) on proplems that change systematically over time. This approach could be used to optimize the hyperparameters of an online machine learning algorithm.</description>
+      <description>This paper shows an straight-forward approach on how to apply Model-based optimization (Bayesian optimization) on problems that change systematically over time. This approach could be used to optimize the hyperparameters of an online machine learning algorithm.</description>
     </item>
     
     <item>
@@ -41,6 +41,15 @@
       
       <guid>https://jakob-r.de/publications/richter_2016_faster/</guid>
       <description>This paper shows one way to parallelize model-based optimization on the example of tuning a SVM. The challenge of heterogeneous runtimes that can cause unused CPU resources is tackled by using scheduling strategies on predicted runtimes. We were able use the resources more efficiently which led to better tuning results. We improved our scheduling strategy in the follow up paper Rambo: Resource-aware model-based optimization with scheduling for heterogeneous runtimes and a comparison with asynchronous model-based optimization.</description>
+    </item>
+    
+    <item>
+      <title>Model-based Hyperparameter Optimization for Machine Learning Algorithms on Large Datasets</title>
+      <link>https://jakob-r.de/publications/richter_2015_ma/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jakob-r.de/publications/richter_2015_ma/</guid>
+      <description>In my master thesis I developed model-based approach to multi-fidelity optimization. This approach allows to find promising hyperparameter configurations faster by evaluating the ml algorithm on small samples of the data.</description>
     </item>
     
     <item>

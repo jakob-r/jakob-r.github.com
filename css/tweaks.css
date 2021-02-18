@@ -110,3 +110,8 @@ div.skills-heading{
   width: 200px;
   padding-right: 20px;
 }
+
+.projects-content h3{
+  display: inline;
+  padding-right: 7px;
+}
