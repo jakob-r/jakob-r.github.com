@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Dortmunder R Kurse",
+        "summary":"I give courses for beginners and advanced R programmers for clients such as BASF, Siemens and AOK. Advanced topics include *automatic reporting*, *Shiny*, and *machine learning*.",
+        "link":"https://dortmunder-r-kurse.de",
+        "range":"2018 - Present"
+    },
+    {
+        "name":"Lecture: Automatic Machine Learning",
+        "summary":"Organization of exercises, student discussions and exam.",
+        "link":"https://www.dortmunder-r-kurse.de",
+        "range":"2020 - 2021"
+    },
+    {
+        "name":"Bayesian Optimization as a Service",
+        "summary":"Supervised a student to implement *mlrMBO* as a REST-service. Similar to Sigopt, just free.",
+        "link":"https://github.com/mboecker/mlrmbo-webservice",
+        "range":"2018 - 2019"
+    },
+    {
+        "name":"DataMining Cup",
+        "summary":"Our TU Dortmund Teams won first and second place on predicting whether an online order will be returned.",
+        "link":"https://www.data-mining-cup.com/reviews/dmc-2013/",
+        "range":"2013"
+    }
+]

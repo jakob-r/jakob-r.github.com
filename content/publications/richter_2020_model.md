@@ -11,5 +11,5 @@ sitemap:
   priority : 0.8
 ---
 
-This paper shows an straigt-forward approach on how to apply Model-based optimization (Bayesian optimization) on proplems that change systematically over time.
+This paper shows an straight-forward approach on how to apply Model-based optimization (Bayesian optimization) on problems that change systematically over time.
 This approach could be used to optimize the hyperparameters of an online machine learning algorithm.

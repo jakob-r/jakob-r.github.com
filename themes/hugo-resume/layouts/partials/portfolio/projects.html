@@ -1,0 +1,23 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+  <div class="my-auto" id="projects-content">
+    <h2 class="mb-5">Projects</h2>
+    {{ range .Site.Data.projects }}
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="projects-content mr-auto">
+            <h3 class="mb-0">
+            {{if isset . "link"}}
+              <a href="{{.link}}">{{ .name }}</h3></a>
+            {{else}}
+              {{ .name }}
+            {{ end }}
+            </h3>
+            {{ .summary | markdownify }}
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">{{ .range }}</span>
+          </div>
+        </div>
+    {{ end }}
+  </div>
+
+</section>

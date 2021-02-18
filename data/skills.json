@@ -37,8 +37,9 @@
       "latex", 
       {"icon":"docker", "name":"use Docker to run research projects on a high performance cluster and for hobby projects"}, 
       {"icon":"nginx", "name":"know how to set up a basic web server"}, 
-      {"icon":"linux", "name":"use SLURM cluster for research"}, 
-      "Photoshop", 
-      "Davinci Resolve"]
+      {"icon":"linux", "name":"use SLURM cluster for research"}]
+  },{
+      "grouping":"Creative Tools",
+      "skills":["Photoshop", "Davinci Resolve", "InDesign"]
   }
 ]

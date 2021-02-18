@@ -15,6 +15,9 @@
          {{ partial "sectionSummary" . }}
       {{ end }}
    {{ end }}
+   {{ if .Site.Params.showProjects }}
+       {{ partial "portfolio/projects.html" . }}
+   {{ end }}
    {{ if .Site.Params.showExperience }}
        {{ partial "portfolio/experience.html" . }}
    {{ end }}
