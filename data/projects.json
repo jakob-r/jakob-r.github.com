@@ -13,7 +13,7 @@
     },
     {
         "name":"Bayesian Optimization as a Service",
-        "summary":"Supervised a student to implement *mlrMBO* as a REST-service. Similar to Sigopt, just free.",
+        "summary":"Supervised a student to implement *mlrMBO* as a REST-service which can be run in a Docker container. Similar to Sigopt, just free and self-hosted.",
         "link":"https://github.com/mboecker/mlrmbo-webservice",
         "range":"2018 - 2019"
     },
