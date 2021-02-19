@@ -1,5 +1,5 @@
 ---
-title: "Analysing geo data on a street level performedon an example of road accidents in London"
+title: "Analyzing geo data on a street level performed on an example of road accidents in London"
 date: 2012-12-15
 pubtype: "Bachelor Thesis, Conference Talk"
 featured: true
