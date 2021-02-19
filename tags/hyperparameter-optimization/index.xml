@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jakob-r.de/coding/mlr3hyperopt/</guid>
-      <description>With this small side-project I simplified hyperparameter tuning within mlr by defining a heurisitc that choses the appropriate search space and optimizer for a given machine learning algorithm and dataset. More details in my blog post on r-bloggers and my talk at the international useR! conference 2017.</description>
+      <description>With this small side-project I simplified hyperparameter tuning within mlr by defining a heuristic that choses the appropriate search space and optimizer for a given machine learning algorithm and dataset. More details in my blog post on r-bloggers and my talk at the international useR! conference 2017.</description>
     </item>
     
   </channel>
