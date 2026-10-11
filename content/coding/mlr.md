@@ -1,7 +1,7 @@
 {
   "title": "mlr",
   "date": "2018-02-11T12:41:05-05:00",
-  "image": "https://mlr.mlr-org.com/articles/tutorial/predict_files/figure-html/unnamed-chunk-24-1.png",
+  "image": "/img/mlr.png",
   "link": "https://mlr.mlr-org.com/",
   "tags": ["r", "machine learning"],
   "fact": "",
