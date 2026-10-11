@@ -2,17 +2,16 @@
   {
     "grouping":"Product engineering",
       "skills":[
-        "turning \"can we just quickly…\" into a plan",
+        "turning \"can we…\" into a plan",
         "project management and stakeholder communication",
         "sparring partner for architectural decisions",
-        "know the product inside out",
-        {"icon":"python", "name":"still writing production code myself"}]
+        {"icon":"python", "name":"still writing production code"}]
   },{
     "grouping":"AI-assisted development",
       "skills":[
-        {"icon":"terminal", "name":"Claude Code and Cursor are part of my daily workflow"},
+        {"icon":"terminal", "name":"Claude Code and Cursor in daily use"},
         "building LLM features into products (Claude and OpenAI APIs)",
-        {"icon":"github", "name":"shipped retromo.de and bewhere.app with coding agents"},
+        {"icon":"github", "name":"shipping complete web apps with coding agents"},
         "reviewing AI-written code like a grumpy senior engineer"]
   },{
     "grouping":"Statistics & machine learning",
@@ -21,8 +20,8 @@
         "(co-)author of various machine learning packages",
         "research on hyperparameter tuning and Bayesian optimization",
         "still a fan of random forests",
-        "like to avoid data leakage",
-        "care about statistical reasoning"]
+        "avoiding data leakage",
+        "careful statistical reasoning"]
   },{
     "grouping":"Python",
       "skills":[
@@ -50,7 +49,7 @@
         {"icon":"docker", "name":"Docker for deploying and self-hosting"},
         {"icon":"linux", "name":"Linux"},
         {"icon":"terminal", "name":"fish>bash"},
-        {"icon":"terminal_badge", "name":"built this site using Hugo"}]
+        {"icon":"terminal_badge", "name":"this site is built with Hugo"}]
   },{
     "grouping":"Creative tools",
       "skills":["Photoshop", "DaVinci Resolve", "InDesign"]
