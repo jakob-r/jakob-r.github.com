@@ -1,9 +1,9 @@
 [
     {
         "name":"Dortmunder R Kurse",
-        "summary":"I give courses for beginners and advanced R programmers for clients such as BASF, Siemens and AOK. Advanced topics include *automatic reporting*, *Shiny*, and *machine learning*.",
+        "summary":"I gave courses for beginners and advanced R programmers for clients such as BASF, Siemens and AOK. Advanced topics include *automatic reporting*, *Shiny*, and *machine learning*.",
         "link":"https://dortmunder-r-kurse.de",
-        "range":"2018 - Present"
+        "range":"2018 - 2023"
     },
     {
         "name":"Lecture: Automatic Machine Learning",
