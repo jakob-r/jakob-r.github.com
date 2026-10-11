@@ -1,0 +1,19 @@
+
+/* legal notice / privacy links and contact images */
+#sideNav .legal-links .nav-link {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+@media (min-width: 992px) {
+  #sideNav .legal-links {
+    position: absolute;
+    bottom: 1rem;
+  }
+}
+img[src^="/legal/"] {
+  vertical-align: middle;
+}
+#Legal-notice h2, #Privacy-policy h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
