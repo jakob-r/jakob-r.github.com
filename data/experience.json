@@ -1,57 +1,56 @@
 [
     {
-        "role":"Staff Product Engineer",
-        "company":"[Civey](https://civey.com)",
-        "summary":"Shaping the product between stakeholders and engineering: project management, architectural decisions and hands-on development of our Python services.",
-        "range":"2026 - Present"
+        "role": "Staff Product Engineer",
+        "company": "[Civey](https://civey.com)",
+        "summary": "Bridging stakeholders and engineering, from planning and architecture to hands-on Python development.",
+        "range": "2026 - Present"
     },
     {
-        "role":"Head of Data Science",
-        "company":"[Civey](https://civey.com)",
-        "summary":"Led a team of up to five R and Python engineers, responsible for all ML pipelines and live services. Automated text clustering and classification with an LLM pipeline (cutting human effort by more than 90%), improved search with Elasticsearch, embeddings and LLM-based query extension, increased user engagement with multi-armed bandits, A/B tests and a better recommendation system, and designed the architecture of new features.",
-        "range":"2023 - 2025"
+        "role": "Head of Data Science",
+        "company": "[Civey](https://civey.com)",
+        "summary": "Led a team of up to five engineers and owned all ML pipelines and live services, including LLM-based text classification, search and recommendations.",
+        "range": "2023 - 2025"
     },
     {
-        "role":"Lead R Engineer",
-        "company":"[Civey](https://civey.com)",
-        "summary":"Automated pipelines and reporting, cutting manual monitoring effort.",
-        "range":"2022 - 2023"
+        "role": "Lead R Engineer",
+        "company": "[Civey](https://civey.com)",
+        "summary": "Automated pipelines and reporting, cutting manual monitoring effort.",
+        "range": "2022 - 2023"
     },
     {
-        "role":"Senior R Engineer",
-        "company":"[Civey](https://civey.com)",
-        "summary":"Statistical models for small-area estimation, R packages running live predictions and internal tooling with shiny.",
-        "range":"2021 - 2022"
+        "role": "Senior R Engineer",
+        "company": "[Civey](https://civey.com)",
+        "summary": "Built statistical models and R packages for live predictions and internal tools.",
+        "range": "2021 - 2022"
     },
     {
-        "role":"Postdoctoral Researcher",
-        "company":"[TU Dortmund University, Faculty of Statistics](https://www.statistik.tu-dortmund.de/richter.html)",
-        "summary":"Research on application of Bayesian optimization on dynamically changing problems.",
-        "range":"September 2020 - 2021"
+        "role": "Postdoctoral Researcher",
+        "company": "[TU Dortmund University, Faculty of Statistics](https://www.statistik.tu-dortmund.de/richter.html)",
+        "summary": "Research on application of Bayesian optimization on dynamically changing problems.",
+        "range": "September 2020 - 2021"
     },
     {
-        "role":"Postdoctoral Researcher",
-        "company":"[Ludwig Maximilian University of Munich, Chair of Statistical Learning and Data Science](https://www.slds.stat.uni-muenchen.de/people/richter/)",
-        "summary":"Member of the Automated Machine Learning research group, research on multi-objective optimization, lecture on automated machine learning, and working on open source projects for machine learning in R: [mlr3](https://mlr3.mlr-org.com/), [mlr3tuning](https://mlr3.mlr-org.com/), [mlr3hyperband](https://mlr3.mlr-org.com/).",
-        "range":"April 2020 - 2021"
+        "role": "Postdoctoral Researcher",
+        "company": "[Ludwig Maximilian University of Munich, Chair of Statistical Learning and Data Science](https://www.slds.stat.uni-muenchen.de/people/richter/)",
+        "summary": "Research on multi-objective optimization, lecture on automated machine learning and development of [mlr3](https://mlr3.mlr-org.com/).",
+        "range": "April 2020 - 2021"
     },
     {
-        "role":"Researcher",
-        "company":"TU Dortmund University, Faculty of Statistics",
-        "summary":"Finished my PhD, Research on parallelization for Bayesian optimization, hyperparameter optimization for expensive machine learning problems, and worked on various open source projects for machine learning in R: [mlr](https://mlr.mlr-org.com/), [mlrMBO](https://mlrmbo.mlr-org.com/), [mlrHyperopt](https://jakob-r.de/mlrHyperopt/).",
-        "range":"May 2015 - September 2020"
+        "role": "Researcher",
+        "company": "TU Dortmund University, Faculty of Statistics",
+        "summary": "PhD on parallel Bayesian optimization and development of [mlr](https://mlr.mlr-org.com/) and [mlrMBO](https://mlrmbo.mlr-org.com/).",
+        "range": "May 2015 - September 2020"
     },
     {
-        "role":"Student Assistant",
-        "company":"TU Dortmund University, Faculty of Statistics",
-        "summary":"Connected multiple machine learning methods to the R-package [mlr](https://mlr.mlr-org.com/).",
-        "range":"September 2013 - April 2015"
+        "role": "Student Assistant",
+        "company": "TU Dortmund University, Faculty of Statistics",
+        "summary": "Connected multiple machine learning methods to the R-package [mlr](https://mlr.mlr-org.com/).",
+        "range": "September 2013 - April 2015"
     },
     {
-        "role":"Student Assistant",
-        "company":"TU Dortmund University, Center for Research on Education and School Development (IFS)",
-        "summary":"Implemented a system to create automated reports based on current research surveys, that were used in the final publication [TIMSS 2011](http://www.ifs.tu-dortmund.de/cms/de/Forschung/Abgeschlossene-Projekte/TIMSS-2011-Grundschule.html).",
-        "range":"June 2012 - December 2012"
+        "role": "Student Assistant",
+        "company": "TU Dortmund University, Center for Research on Education and School Development (IFS)",
+        "summary": "Built automated reports for the [TIMSS 2011](http://www.ifs.tu-dortmund.de/cms/de/Forschung/Abgeschlossene-Projekte/TIMSS-2011-Grundschule.html) study.",
+        "range": "June 2012 - December 2012"
     }
-
 ]
