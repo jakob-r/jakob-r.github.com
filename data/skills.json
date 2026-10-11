@@ -7,12 +7,11 @@
         "sparring partner for architectural decisions",
         {"icon":"python", "name":"still writing production code"}]
   },{
-    "grouping":"AI-assisted development",
+    "grouping":"AI stuff",
       "skills":[
-        {"icon":"terminal", "name":"Claude Code and Cursor in daily use"},
-        "building LLM features into products (Claude and OpenAI APIs)",
-        {"icon":"github", "name":"shipping complete web apps with coding agents"},
-        "reviewing AI-written code like a grumpy senior engineer"]
+        {"icon":"terminal", "name":"Claude Code, Cursor, Codex"},
+        "building LLM features and mini agents into products (OpenAI, openrouter)",
+        {"icon":"github", "name":"e2e deployment of hobby projects"}]
   },{
     "grouping":"Statistics & machine learning",
       "skills":[
@@ -25,17 +24,19 @@
   },{
     "grouping":"Python",
       "skills":[
-        {"icon":"python", "name":"APIs with FastAPI"},
+        {"icon":"python", "name":"REST APIs with FastAPI"},
+        {"icon":"python", "name":"gRPC APIs with grpcio"},
         {"icon":"python", "name":"pandas and polars"},
-        {"icon":"python", "name":"scikit-learn and statsmodels"},
-        {"icon":"python", "name":"uv, ruff, pytest and type hints"}]
+        {"icon":"python", "name":"scikit-learn, statsmodels"},
+        {"icon":"python", "name":"uv, ruff, pytest"},
+        {"icon":"python", "name":"mypy, pyright"}]
   },{
     "grouping":"SQL & data",
       "skills":[
         {"icon":"postgresql", "name":"PostgreSQL"},
-        {"icon":"database", "name":"data transformations with dbt"},
-        {"icon":"database", "name":"pipelines with Airflow"},
-        {"icon":"database", "name":"window functions without googling (mostly)"}]
+        {"icon":"database", "name":"Airflow"},
+        {"icon":"database", "name":"caring about indices and performance"},
+        {"icon":"database", "name":"loving outer joins, window functions and CTEs"}]
   },{
     "grouping":"R (where it all started)",
       "skills":[
@@ -48,8 +49,8 @@
         {"icon":"git", "name":"all projects on git"},
         {"icon":"docker", "name":"Docker for deploying and self-hosting"},
         {"icon":"linux", "name":"Linux"},
-        {"icon":"terminal", "name":"fish>bash"},
-        {"icon":"terminal_badge", "name":"this site is built with Hugo"}]
+        {"icon":"terminal", "name":"fish>bash"}
+        ]
   },{
     "grouping":"Creative tools",
       "skills":["Photoshop", "DaVinci Resolve", "InDesign"]
