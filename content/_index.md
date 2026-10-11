@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-PhD in statistics, developer of several machine learning and Bayesian optimization libraries for R, tutor for R programming, interested in photography and maker culture.
+PhD in statistics, developer of several machine learning and Bayesian optimization libraries for R and of free web apps like [retromo.de](https://retromo.de) and [bewhere.app](https://bewhere.app), tutor for R programming, interested in photography and maker culture.
