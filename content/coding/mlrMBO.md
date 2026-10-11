@@ -1,7 +1,7 @@
 {
     "title":"mlrMBO",
     "link":"https://mlrmbo.mlr-org.com/",
-    "image":"https://i.imgur.com/LVFRVVl.gif",
+    "image":"/img/mlrmbo.gif",
     "tags": ["r", "optimization", "MBO"],
     "fact":" 700+ \"pulls\" from docker hub",
     "featured": true

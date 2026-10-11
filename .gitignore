@@ -3,3 +3,7 @@
 .RData
 attic
 public
+.hugo_build.lock
+node_modules
+static/legal
+.env

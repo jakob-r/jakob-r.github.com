@@ -1,45 +1,58 @@
 [
   {
-    "grouping":"machine learning",
-      "skills":[ "(co-)author of various machine learning packages", "fan of random forests", "research on hyperparameter tuning", "experience on interpretable machine learning (explainable AI)", "like to avoid data leakage", "care about statistical reasoning"]
-  },{
-      "grouping":"R",
-      "skills":[ "package development","visualization with ggplot2","automated reporting and papers with knitr","interactive visualization and dynamic reports with shiny","data wrangling with data.table", "teaching", "OOP with R6"]
-  },{
-      "grouping":"SQL",
-      "skills":[ 
-        {"icon":"database", "name":"administration with MariaDB"}, 
-        {"icon":"database", "name":"for research and hobby projects"}, 
-        {"icon":"database", "name":"know how to aggregate, left/inner/outer join"}]
-  },{
-      "grouping":"Python",
+    "grouping":"Product engineering",
       "skills":[
-        {"icon":"python", "name":"pytorch for teaching"}, 
-        {"icon":"python", "name":"used for hobby projects"}, 
-        {"icon":"python", "name":"numpy+pandas feels like R"}]
-  },{ 
-      "grouping":"Programming general",
+        "turning \"can we…\" into a plan",
+        "project management and stakeholder communication",
+        "sparring partner for architectural decisions",
+        {"icon":"python", "name":"still writing production code"}]
+  },{
+    "grouping":"AI stuff",
       "skills":[
-        {"icon":"jenkins", "name":"CI for automated testing"}, 
-       "C++",
-       "Java", 
-       "PHP",
-       {"icon":"css3", "name":"CSS"},
-       {"icon":"windows", "name":"VBA"}, 
-       "familiar with web-scraping techniques",
-       {"icon":"terminal_badge", "name":"built this site using Hugo"}]
+        {"icon":"terminal", "name":"Claude Code, Cursor, Codex"},
+        "building LLM features and mini agents into products (OpenAI, openrouter)",
+        {"icon":"github", "name":"e2e deployment of hobby projects"}]
   },{
-      "grouping":"Operating Systems & Tools",
-      "skills":[ 
-      {"icon":"linux", "name":"working with Arch Linux daily"}, 
-      {"icon":"git", "name":"all projects on git"}, 
-      {"icon":"terminal", "name":"fish>bash"}, 
-      "latex", 
-      {"icon":"docker", "name":"use Docker to run research projects on a high performance cluster and for hobby projects"}, 
-      {"icon":"nginx", "name":"know how to set up a basic web server"}, 
-      {"icon":"linux", "name":"use SLURM cluster for research"}]
+    "grouping":"Statistics & machine learning",
+      "skills":[
+        "survey statistics: sampling, weighting and bias",
+        "(co-)author of various machine learning packages",
+        "research on hyperparameter tuning and Bayesian optimization",
+        "still a fan of random forests",
+        "avoiding data leakage",
+        "careful statistical reasoning"]
   },{
-      "grouping":"Creative Tools",
-      "skills":["Photoshop", "Davinci Resolve", "InDesign"]
+    "grouping":"Python",
+      "skills":[
+        {"icon":"python", "name":"REST APIs with FastAPI"},
+        {"icon":"python", "name":"gRPC APIs with grpcio"},
+        {"icon":"python", "name":"pandas and polars"},
+        {"icon":"python", "name":"scikit-learn, statsmodels"},
+        {"icon":"python", "name":"uv, ruff, pytest"},
+        {"icon":"python", "name":"mypy, pyright"}]
+  },{
+    "grouping":"SQL & data",
+      "skills":[
+        {"icon":"postgresql", "name":"PostgreSQL"},
+        {"icon":"database", "name":"Airflow"},
+        {"icon":"database", "name":"caring about indices and performance"},
+        {"icon":"database", "name":"loving outer joins, window functions and CTEs"}]
+  },{
+    "grouping":"R (where it all started)",
+      "skills":[
+        "package development",
+        "ggplot2, shiny and data.table",
+        "taught R to beginners and pros for years"]
+  },{
+    "grouping":"Tools",
+      "skills":[
+        {"icon":"git", "name":"all projects on git"},
+        {"icon":"docker", "name":"Docker for deploying and self-hosting"},
+        {"icon":"linux", "name":"Linux"},
+        {"icon":"terminal", "name":"fish>bash"}
+        ]
+  },{
+    "grouping":"Creative tools",
+      "skills":["Photoshop", "DaVinci Resolve", "InDesign"]
   }
 ]
