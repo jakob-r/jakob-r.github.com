@@ -1,7 +1,7 @@
 {
     "title":"mlr3 and mlr3verse",
     "link":"https://mlr3verse.mlr-org.com/",
-    "image":"https://raw.githubusercontent.com/mlr-org/mlr3/master/man/figures/mlr3verse.svg?sanitize=true",
+    "image":"/img/mlr3verse.svg",
     "tags": ["r", "machine learning", "oop", "R6"],
     "fact":" 700+ \"pulls\" from docker hub",
     "featured": true
