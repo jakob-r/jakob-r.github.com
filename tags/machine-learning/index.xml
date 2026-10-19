@@ -1,83 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>machine learning on Jakob Richter</title>
-    <link>https://jakob-r.de/tags/machine-learning/</link>
-    <description>Recent content in machine learning on Jakob Richter</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jakob-r.de/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Model-based optimization of subgroup weights for survival analysis</title>
-      <link>https://jakob-r.de/publications/richter_2019_model/</link>
-      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakob-r.de/publications/richter_2019_model/</guid>
-      <description>This paper successfully applied model-based optimization to identify optimal subgroup weights for survival prediction with high-dimensional genetic covariates. When predicting survival for a specific subgroup it can be beneficial to combine the training data with other subgroups to obtain a better model.</description>
-    </item>
-    
-    <item>
-      <title>mlrMBO: A modular framework for model-based optimization of expensive black-box functions</title>
-      <link>https://jakob-r.de/publications/bischl_2017_mlrmbo/</link>
-      <pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakob-r.de/publications/bischl_2017_mlrmbo/</guid>
-      <description>This is the accompanying paper for the mlrMBO R package. It gives a brief introduction the model-based optimization algorithm and shows that mlrMBO is able to outperform other optimization packages on synthetic test functions as well as on real hyperparameter optimization problems.</description>
-    </item>
-    
-    <item>
-      <title>Faster model-based optimization through resource-aware scheduling strategies</title>
-      <link>https://jakob-r.de/publications/richter_2016_faster/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakob-r.de/publications/richter_2016_faster/</guid>
-      <description>This paper shows one way to parallelize model-based optimization on the example of tuning a SVM. The challenge of heterogeneous runtimes that can cause unused CPU resources is tackled by using scheduling strategies on predicted runtimes. We were able use the resources more efficiently which led to better tuning results. We improved our scheduling strategy in the follow up paper Rambo: Resource-aware model-based optimization with scheduling for heterogeneous runtimes and a comparison with asynchronous model-based optimization.</description>
-    </item>
-    
-    <item>
-      <title>mlr: Machine Learning in R</title>
-      <link>https://jakob-r.de/publications/bischl_2016_mlr/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakob-r.de/publications/bischl_2016_mlr/</guid>
-      <description>This paper is just our formal publication mlr. More details can be found in the detailed online tutorial here. Please note that we advice to use mlr3 instead which comes along with a in-depth documentation in online book form.</description>
-    </item>
-    
-    <item>
-      <title>Model-based Hyperparameter Optimization for Machine Learning Algorithms on Large Datasets</title>
-      <link>https://jakob-r.de/publications/richter_2015_ma/</link>
-      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakob-r.de/publications/richter_2015_ma/</guid>
-      <description>In my master thesis I developed model-based approach to multi-fidelity optimization. This approach allows to find promising hyperparameter configurations faster by evaluating the ml algorithm on small samples of the data.</description>
-    </item>
-    
-    <item>
-      <title>mlr</title>
-      <link>https://jakob-r.de/coding/mlr/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>https://jakob-r.de/coding/mlr/</guid>
-      <description>Co-author of the widely used machine learning library for R that includes over 80 classification methods and over 50 regression methods. mlr also offers hyperparameter optimization, as well as pre- and post-processing methods. I implemented many learners, Bayesian optimization for tuning, fixed various bugs, took care of unit tests, documentation and code-reviews.</description>
-    </item>
-    
-    <item>
-      <title>mlr3 and mlr3verse</title>
-      <link>https://jakob-r.de/coding/mlr3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakob-r.de/coding/mlr3/</guid>
-      <description>Co-author of the successor of mlr. I contributed to the early development and new object-oriented design of mlr3. The mlr3verse consist of various R packages that are developed in a big team across universities. I largely commit on doing code-reviews and helping others to contribute to the project. My main contributions are to the packages related to tuning mlr3tuning, bbotk and mlr3mbo.</description>
-    </item>
-    
-    <item>
-      <title>mlrHyperopt</title>
-      <link>https://jakob-r.de/coding/mlr3hyperopt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jakob-r.de/coding/mlr3hyperopt/</guid>
-      <description>With this small side-project I simplified hyperparameter tuning within mlr by defining a heuristic that choses the appropriate search space and optimizer for a given machine learning algorithm and dataset. More details in my blog post on r-bloggers and my talk at the international useR! conference 2017.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Machine Learning on Jakob Richter</title>
+		<link>https://jakob-r.de/tags/machine-learning/</link>
+		<description>Recent content in Machine Learning on Jakob Richter</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://jakob-r.de/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Model-based optimization of subgroup weights for survival analysis</title>
+				<link>https://jakob-r.de/publications/richter_2019_model/</link>
+				<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+				<guid>https://jakob-r.de/publications/richter_2019_model/</guid>
+				<description>&lt;p&gt;This paper successfully applied model-based optimization to identify optimal subgroup weights for survival prediction with high-dimensional genetic covariates. When predicting survival for a specific subgroup it can be beneficial to combine the training data with other subgroups to obtain a better model.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>mlrMBO: A modular framework for model-based optimization of expensive black-box functions</title>
+				<link>https://jakob-r.de/publications/bischl_2017_mlrmbo/</link>
+				<pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
+				<guid>https://jakob-r.de/publications/bischl_2017_mlrmbo/</guid>
+				<description>&lt;p&gt;This is the accompanying paper for the &lt;em&gt;mlrMBO&lt;/em&gt; R package. It gives a brief introduction the model-based optimization algorithm and shows that &lt;em&gt;mlrMBO&lt;/em&gt; is able to outperform other optimization packages on synthetic test functions as well as on real hyperparameter optimization problems.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Faster model-based optimization through resource-aware scheduling strategies</title>
+				<link>https://jakob-r.de/publications/richter_2016_faster/</link>
+				<pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+				<guid>https://jakob-r.de/publications/richter_2016_faster/</guid>
+				<description>&lt;p&gt;This paper shows one way to parallelize model-based optimization on the example of tuning a SVM.&#xA;The challenge of heterogeneous runtimes that can cause unused CPU resources is tackled by using scheduling strategies on predicted runtimes.&#xA;We were able use the resources more efficiently which led to better tuning results.&#xA;We improved our scheduling strategy in the follow up paper &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-319-69404-7_13&#34;&gt;Rambo: Resource-aware model-based optimization with scheduling for heterogeneous runtimes and a comparison with asynchronous model-based optimization&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>mlr: Machine Learning in R</title>
+				<link>https://jakob-r.de/publications/bischl_2016_mlr/</link>
+				<pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+				<guid>https://jakob-r.de/publications/bischl_2016_mlr/</guid>
+				<description>&lt;p&gt;This paper is just our formal publication &lt;em&gt;mlr&lt;/em&gt;.&#xA;More details can be found in the detailed online tutorial &lt;a href=&#34;https://mlr.mlr-org.com/&#34;&gt;here&lt;/a&gt;.&#xA;Please note that we advice to use &lt;a href=&#34;https://mlr3.mlr-org.com/&#34;&gt;&lt;em&gt;mlr3&lt;/em&gt;&lt;/a&gt; instead which comes along with a in-depth documentation in &lt;a href=&#34;https://mlr3book.mlr-org.com/&#34;&gt;online book form&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Model-based Hyperparameter Optimization for Machine Learning Algorithms on Large Datasets</title>
+				<link>https://jakob-r.de/publications/richter_2015_ma/</link>
+				<pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+				<guid>https://jakob-r.de/publications/richter_2015_ma/</guid>
+				<description>&lt;p&gt;In my master thesis I developed model-based approach to multi-fidelity optimization.&#xA;This approach allows to find promising hyperparameter configurations faster by evaluating the ml algorithm on small samples of the data.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>mlr</title>
+				<link>https://jakob-r.de/coding/mlr/</link>
+				<pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+				<guid>https://jakob-r.de/coding/mlr/</guid>
+				<description>&lt;p&gt;Co-author of the widely used machine learning library for R that includes over 80 classification methods and over 50 regression methods. &lt;em&gt;mlr&lt;/em&gt; also offers hyperparameter optimization, as well as pre- and post-processing methods. I implemented many learners, Bayesian optimization for tuning, fixed various bugs, took care of unit tests, documentation and code-reviews.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>mlr3 and mlr3verse</title>
+				<link>https://jakob-r.de/coding/mlr3/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://jakob-r.de/coding/mlr3/</guid>
+				<description>&lt;p&gt;Co-author of the successor of &lt;em&gt;mlr&lt;/em&gt;.&#xA;I contributed to the early development and new object-oriented design of &lt;em&gt;mlr3&lt;/em&gt;.&#xA;The &lt;em&gt;mlr3verse&lt;/em&gt; consist of various R packages that are developed in a big team across universities.&#xA;I largely commit on doing code-reviews and helping others to contribute to the project.&#xA;My main contributions are to the packages related to tuning &lt;a href=&#34;https://mlr3tuning.mlr-org.com/&#34;&gt;mlr3tuning&lt;/a&gt;, &lt;a href=&#34;https://bbotk.mlr-org.com/&#34;&gt;bbotk&lt;/a&gt; and &lt;a href=&#34;https://mlr3mbo.mlr-org.com/&#34;&gt;mlr3mbo&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>mlrHyperopt</title>
+				<link>https://jakob-r.de/coding/mlr3hyperopt/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://jakob-r.de/coding/mlr3hyperopt/</guid>
+				<description>&lt;p&gt;With this small side-project I simplified hyperparameter tuning within &lt;em&gt;mlr&lt;/em&gt; by defining a heuristic that choses the appropriate search space and optimizer for a given machine learning algorithm and dataset. More details in my blog post on &lt;a href=&#34;https://www.r-bloggers.com/2017/07/parameter-tuning-with-mlrhyperopt/&#34;&gt;r-bloggers&lt;/a&gt; and &lt;a href=&#34;https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/mlrHyperopt-Effortless-and-collaborative-hyperparameter-optimization-experiments&#34;&gt;my talk&lt;/a&gt; at the international useR! conference 2017.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Typescript on Jakob Richter</title>
+		<link>https://jakob-r.de/tags/typescript/</link>
+		<description>Recent content in Typescript on Jakob Richter</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://jakob-r.de/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>retromo.de</title>
+				<link>https://jakob-r.de/coding/retromode/</link>
+				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://jakob-r.de/coding/retromode/</guid>
+				<description>&lt;p&gt;A free, open source retrospective board for agile and remote teams: create a board, share the link and everyone can add, merge and vote on items live, without any login.&#xA;It comes with drag and drop grouping, dot voting and a shared timer, is hosted in Germany and can be self-hosted with a single Docker image.&#xA;The code is available on &lt;a href=&#34;https://github.com/jakob-r/retromode&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
