@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Bioinformatics on Jakob Richter</title>
-		<link>https://jakob-r.de/tags/bioinformatics/</link>
+		<link>https://www.jakob-r.de/tags/bioinformatics/</link>
 		<description>Recent content in Bioinformatics on Jakob Richter</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://jakob-r.de/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.jakob-r.de/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Model-based optimization of subgroup weights for survival analysis</title>
-				<link>https://jakob-r.de/publications/richter_2019_model/</link>
+				<link>https://www.jakob-r.de/publications/richter_2019_model/</link>
 				<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/publications/richter_2019_model/</guid>
+				<guid>https://www.jakob-r.de/publications/richter_2019_model/</guid>
 				<description>&lt;p&gt;This paper successfully applied model-based optimization to identify optimal subgroup weights for survival prediction with high-dimensional genetic covariates. When predicting survival for a specific subgroup it can be beneficial to combine the training data with other subgroups to obtain a better model.&lt;/p&gt;</description>
 			</item>
 	</channel>

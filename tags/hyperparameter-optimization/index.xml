@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Hyperparameter Optimization on Jakob Richter</title>
-		<link>https://jakob-r.de/tags/hyperparameter-optimization/</link>
+		<link>https://www.jakob-r.de/tags/hyperparameter-optimization/</link>
 		<description>Recent content in Hyperparameter Optimization on Jakob Richter</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,12 +10,12 @@
 		
 		
 		
-			<atom:link href="https://jakob-r.de/tags/hyperparameter-optimization/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.jakob-r.de/tags/hyperparameter-optimization/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>mlrHyperopt</title>
-				<link>https://jakob-r.de/coding/mlr3hyperopt/</link>
+				<link>https://www.jakob-r.de/coding/mlr3hyperopt/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/coding/mlr3hyperopt/</guid>
+				<guid>https://www.jakob-r.de/coding/mlr3hyperopt/</guid>
 				<description>&lt;p&gt;With this small side-project I simplified hyperparameter tuning within &lt;em&gt;mlr&lt;/em&gt; by defining a heuristic that choses the appropriate search space and optimizer for a given machine learning algorithm and dataset. More details in my blog post on &lt;a href=&#34;https://www.r-bloggers.com/2017/07/parameter-tuning-with-mlrhyperopt/&#34;&gt;r-bloggers&lt;/a&gt; and &lt;a href=&#34;https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/mlrHyperopt-Effortless-and-collaborative-hyperparameter-optimization-experiments&#34;&gt;my talk&lt;/a&gt; at the international useR! conference 2017.&lt;/p&gt;</description>
 			</item>
 	</channel>

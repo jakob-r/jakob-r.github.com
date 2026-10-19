@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Jakob Richter</title>
-		<link>https://jakob-r.de/tags/</link>
+		<link>https://www.jakob-r.de/tags/</link>
 		<description>Recent content in Tags on Jakob Richter</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,180 +12,180 @@
 		
 			<lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://jakob-r.de/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.jakob-r.de/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Fastify</title>
-				<link>https://jakob-r.de/tags/fastify/</link>
+				<link>https://www.jakob-r.de/tags/fastify/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/fastify/</guid>
+				<guid>https://www.jakob-r.de/tags/fastify/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Postgresql</title>
-				<link>https://jakob-r.de/tags/postgresql/</link>
+				<link>https://www.jakob-r.de/tags/postgresql/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/postgresql/</guid>
+				<guid>https://www.jakob-r.de/tags/postgresql/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>React</title>
-				<link>https://jakob-r.de/tags/react/</link>
+				<link>https://www.jakob-r.de/tags/react/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/react/</guid>
+				<guid>https://www.jakob-r.de/tags/react/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Typescript</title>
-				<link>https://jakob-r.de/tags/typescript/</link>
+				<link>https://www.jakob-r.de/tags/typescript/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/typescript/</guid>
+				<guid>https://www.jakob-r.de/tags/typescript/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Web App</title>
-				<link>https://jakob-r.de/tags/web-app/</link>
+				<link>https://www.jakob-r.de/tags/web-app/</link>
 				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/web-app/</guid>
+				<guid>https://www.jakob-r.de/tags/web-app/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Fastapi</title>
-				<link>https://jakob-r.de/tags/fastapi/</link>
+				<link>https://www.jakob-r.de/tags/fastapi/</link>
 				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/fastapi/</guid>
+				<guid>https://www.jakob-r.de/tags/fastapi/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Python</title>
-				<link>https://jakob-r.de/tags/python/</link>
+				<link>https://www.jakob-r.de/tags/python/</link>
 				<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/python/</guid>
+				<guid>https://www.jakob-r.de/tags/python/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Computer Vision</title>
-				<link>https://jakob-r.de/tags/computer-vision/</link>
+				<link>https://www.jakob-r.de/tags/computer-vision/</link>
 				<pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/computer-vision/</guid>
+				<guid>https://www.jakob-r.de/tags/computer-vision/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Opencv</title>
-				<link>https://jakob-r.de/tags/opencv/</link>
+				<link>https://www.jakob-r.de/tags/opencv/</link>
 				<pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/opencv/</guid>
+				<guid>https://www.jakob-r.de/tags/opencv/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Photography</title>
-				<link>https://jakob-r.de/tags/photography/</link>
+				<link>https://www.jakob-r.de/tags/photography/</link>
 				<pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/photography/</guid>
+				<guid>https://www.jakob-r.de/tags/photography/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>MBO</title>
-				<link>https://jakob-r.de/tags/mbo/</link>
+				<link>https://www.jakob-r.de/tags/mbo/</link>
 				<pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/mbo/</guid>
+				<guid>https://www.jakob-r.de/tags/mbo/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Bioinformatics</title>
-				<link>https://jakob-r.de/tags/bioinformatics/</link>
+				<link>https://www.jakob-r.de/tags/bioinformatics/</link>
 				<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/bioinformatics/</guid>
+				<guid>https://www.jakob-r.de/tags/bioinformatics/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Machine Learning</title>
-				<link>https://jakob-r.de/tags/machine-learning/</link>
+				<link>https://www.jakob-r.de/tags/machine-learning/</link>
 				<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/machine-learning/</guid>
+				<guid>https://www.jakob-r.de/tags/machine-learning/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>R</title>
-				<link>https://jakob-r.de/tags/r/</link>
+				<link>https://www.jakob-r.de/tags/r/</link>
 				<pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-				<guid>https://jakob-r.de/tags/r/</guid>
+				<guid>https://www.jakob-r.de/tags/r/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Parallelization</title>
-				<link>https://jakob-r.de/tags/parallelization/</link>
+				<link>https://www.jakob-r.de/tags/parallelization/</link>
 				<pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/parallelization/</guid>
+				<guid>https://www.jakob-r.de/tags/parallelization/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Spatial Analysis</title>
-				<link>https://jakob-r.de/tags/spatial-analysis/</link>
+				<link>https://www.jakob-r.de/tags/spatial-analysis/</link>
 				<pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/spatial-analysis/</guid>
+				<guid>https://www.jakob-r.de/tags/spatial-analysis/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Apache</title>
-				<link>https://jakob-r.de/tags/apache/</link>
+				<link>https://www.jakob-r.de/tags/apache/</link>
 				<pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/apache/</guid>
+				<guid>https://www.jakob-r.de/tags/apache/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Redirect</title>
-				<link>https://jakob-r.de/tags/redirect/</link>
+				<link>https://www.jakob-r.de/tags/redirect/</link>
 				<pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/redirect/</guid>
+				<guid>https://www.jakob-r.de/tags/redirect/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Rewrite</title>
-				<link>https://jakob-r.de/tags/rewrite/</link>
+				<link>https://www.jakob-r.de/tags/rewrite/</link>
 				<pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/rewrite/</guid>
+				<guid>https://www.jakob-r.de/tags/rewrite/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Ssl</title>
-				<link>https://jakob-r.de/tags/ssl/</link>
+				<link>https://www.jakob-r.de/tags/ssl/</link>
 				<pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/ssl/</guid>
+				<guid>https://www.jakob-r.de/tags/ssl/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Web Development</title>
-				<link>https://jakob-r.de/tags/web-development/</link>
+				<link>https://www.jakob-r.de/tags/web-development/</link>
 				<pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/web-development/</guid>
+				<guid>https://www.jakob-r.de/tags/web-development/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hyperparameter Optimization</title>
-				<link>https://jakob-r.de/tags/hyperparameter-optimization/</link>
+				<link>https://www.jakob-r.de/tags/hyperparameter-optimization/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/hyperparameter-optimization/</guid>
+				<guid>https://www.jakob-r.de/tags/hyperparameter-optimization/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Oop</title>
-				<link>https://jakob-r.de/tags/oop/</link>
+				<link>https://www.jakob-r.de/tags/oop/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/oop/</guid>
+				<guid>https://www.jakob-r.de/tags/oop/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Optimization</title>
-				<link>https://jakob-r.de/tags/optimization/</link>
+				<link>https://www.jakob-r.de/tags/optimization/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/optimization/</guid>
+				<guid>https://www.jakob-r.de/tags/optimization/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>R6</title>
-				<link>https://jakob-r.de/tags/r6/</link>
+				<link>https://www.jakob-r.de/tags/r6/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://jakob-r.de/tags/r6/</guid>
+				<guid>https://www.jakob-r.de/tags/r6/</guid>
 				<description></description>
 			</item>
 	</channel>
