@@ -1,5 +1,5 @@
 title = "Jakob Richter"
-baseURL = "https://jakob-r.de/"
+baseURL = "https://www.jakob-r.de/"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
