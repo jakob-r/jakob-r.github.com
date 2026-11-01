@@ -3,7 +3,7 @@
     "title":"games.jakob-r.de",
     "date": "2026-10-23",
     "link":"https://games.jakob-r.de",
-    "image":"/img/games.jpg",
+    "image":"/img/games.png",
     "tags": ["typescript", "svelte", "fastapi", "postgresql", "websockets", "toy project"],
     "featured": true
 }

@@ -3,7 +3,7 @@
     "title":"playground.jakob-r.de",
     "date": "2026-10-30",
     "link":"https://github.com/jakob-r/playground",
-    "image":"/img/playground.jpg",
+    "image":"/img/playground.png",
     "tags": ["typescript", "svelte", "visualization", "toy project"],
     "featured": true
 }
