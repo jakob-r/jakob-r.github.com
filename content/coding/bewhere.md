@@ -1,4 +1,5 @@
 {
+    "weight": 2,
     "title":"bewhere.app",
     "date": "2026-05-30",
     "link":"https://bewhere.app",

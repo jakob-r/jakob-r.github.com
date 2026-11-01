@@ -1,4 +1,5 @@
 {
+    "weight": 9,
     "title":"mlrHyperopt",
     "link":"https://jakob-r.de/mlrHyperopt/",
     "image":"/img/mlrhyperopt.png",

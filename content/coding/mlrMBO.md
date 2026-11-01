@@ -1,4 +1,5 @@
 {
+    "weight": 10,
     "title":"mlrMBO",
     "link":"https://mlrmbo.mlr-org.com/",
     "image":"/img/mlrmbo.gif",

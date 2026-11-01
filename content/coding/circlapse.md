@@ -1,4 +1,5 @@
 {
+    "weight": 3,
     "title":"Circlapse",
     "date": "2025-07-20",
     "link":"https://github.com/jakob-r/CircLapse",

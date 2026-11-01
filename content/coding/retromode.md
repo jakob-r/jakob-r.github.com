@@ -1,4 +1,5 @@
 {
+    "weight": 1,
     "title":"retromo.de",
     "date": "2026-10-11",
     "link":"https://retromo.de",

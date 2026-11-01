@@ -1,4 +1,5 @@
 {
+    "weight": 8,
     "title":"mlr3 and mlr3verse",
     "link":"https://mlr3verse.mlr-org.com/",
     "image":"/img/mlr3verse.svg",

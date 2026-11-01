@@ -1,4 +1,5 @@
 {
+  "weight": 7,
   "title": "mlr",
   "date": "2018-02-11T12:41:05-05:00",
   "image": "/img/mlr.png",
