@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Browser Only on Jakob Richter</title>
+		<link>https://www.jakob-r.de/tags/browser-only/</link>
+		<description>Recent content in Browser Only on Jakob Richter</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.jakob-r.de/tags/browser-only/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>tools.jakob-r.de</title>
+				<link>https://www.jakob-r.de/coding/tools/</link>
+				<pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.jakob-r.de/coding/tools/</guid>
+				<description>&lt;p&gt;Small helpers that run entirely in the browser, e.g. a Markdown/HTML converter, a Base64 encoder and a GPX track cleaner. Your text and files never leave the page.&#xA;The code is available on &lt;a href=&#34;https://github.com/jakob-r/tools.jakob-r.de&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

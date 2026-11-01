@@ -1,0 +1,202 @@
+.p-0{
+  margin: 0 auto;
+}
+
+.devicons{
+  font-size:1.5em;
+      vertical-align: sub;
+}
+
+/* ensure items with short summarues push date over image */
+.publication-content{
+  width:90%;
+}
+
+
+h3{
+    margin-top:40px;
+}
+
+h3.mb-0{
+    margin-top:0;
+}
+
+div.skills-heading{
+    margin-top:1em;
+    margin-bottom:0 !important;
+}
+
+
+
+/* From https://codepen.io/wbeeftink/pen/dIaDH */
+
+.tags {
+    font: 12px/1.5 'PT Sans', serif;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.tags li {
+  float: left;
+}
+
+.tag {
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+  color: #999;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tag::before {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.tag::after {
+  background: #fff;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #eee;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.tag:hover::after {
+   border-left-color: crimson;
+}
+
+.project-fact{
+  font-size:80%;
+  font-style:italic;
+}
+
+
+
+
+.resume-section blockquote {
+    border-left: 4px solid #183176;
+    padding-left: 1em;
+}
+
+/* Fix responsive width for blog posts */
+.my-auto {
+	width: 100%
+}
+
+.resume-content img{
+  width: 200px;
+  padding-right: 20px;
+}
+
+.projects-content h3{
+  display: inline;
+  padding-right: 7px;
+}
+
+
+/* ============= Animation background ========= */
+/* https://www.sliderrevolution.com/resources/css-animated-background/ */
+.background {
+  background: linear-gradient(132deg, #6C0021, #291A79, #183176);
+  background-size: 100% 100%;
+  animation: Gradient 15s ease infinite;
+}
+
+.cube {
+  display: none;
+}
+
+@media (min-width: 768px) {
+.cube {
+  display: block;
+  z-index: -1000;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  width: 5px;
+  height: 5px;
+  border: solid 1px #D7D4E4;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube 45s ease-in forwards infinite;
+}
+
+.cube:nth-child(2) {
+  animation-delay: 2s;
+  width: 10px;
+  height: 10px;
+  left: 130px;
+  top: -40px;
+}
+.cube:nth-child(3) {
+  animation-delay: 4s;
+  left: 180px;
+  top: -80px;
+  width: 15px;
+  height: 15px;
+}
+/*.cube:nth-child(4) {
+  animation-delay: 6s;
+  left: 11rem;
+  top: 22vh;
+}
+.cube:nth-child(5) {
+  animation-delay: 8s;
+  left: 15rem;
+  top: 21vh;
+}
+.cube:nth-child(6) {
+  animation-delay: 10s;
+  left: 23rem;
+  top: 20vh;
+}*/
+}
+
+/* Animate Background*/
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes cube {
+  0% {
+    transform: scale(1) rotate(0deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Visualization on Jakob Richter</title>
+		<link>https://www.jakob-r.de/tags/visualization/</link>
+		<description>Recent content in Visualization on Jakob Richter</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.jakob-r.de/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>playground.jakob-r.de</title>
+				<link>https://www.jakob-r.de/coding/playground/</link>
+				<pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.jakob-r.de/coding/playground/</guid>
+				<description>&lt;p&gt;A loose collection of small web toys that explain something or are just nice to watch, such as the Fourier Lens, which shows how JPEG-style compression keeps an image while cutting away frequencies.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

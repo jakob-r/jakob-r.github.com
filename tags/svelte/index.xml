@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Svelte on Jakob Richter</title>
+		<link>https://www.jakob-r.de/tags/svelte/</link>
+		<description>Recent content in Svelte on Jakob Richter</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.jakob-r.de/tags/svelte/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>games.jakob-r.de</title>
+				<link>https://www.jakob-r.de/coding/games/</link>
+				<pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.jakob-r.de/coding/games/</guid>
+				<description>&lt;p&gt;A small collection of minimalistic multiplayer browser games such as Sudoku, Käsekästchen and Minesweeper, played together in real time via a shared link. No registration, no ads and no tracking.&#xA;The code is available on &lt;a href=&#34;https://github.com/jakob-r/games.jakob-r.de&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>tools.jakob-r.de</title>
+				<link>https://www.jakob-r.de/coding/tools/</link>
+				<pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.jakob-r.de/coding/tools/</guid>
+				<description>&lt;p&gt;Small helpers that run entirely in the browser, e.g. a Markdown/HTML converter, a Base64 encoder and a GPX track cleaner. Your text and files never leave the page.&#xA;The code is available on &lt;a href=&#34;https://github.com/jakob-r/tools.jakob-r.de&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>playground.jakob-r.de</title>
+				<link>https://www.jakob-r.de/coding/playground/</link>
+				<pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.jakob-r.de/coding/playground/</guid>
+				<description>&lt;p&gt;A loose collection of small web toys that explain something or are just nice to watch, such as the Fourier Lens, which shows how JPEG-style compression keeps an image while cutting away frequencies.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
