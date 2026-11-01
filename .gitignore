@@ -7,3 +7,6 @@ public
 node_modules
 static/legal
 .env
+
+# Claude Code local settings
+.claude/
